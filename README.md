@@ -89,6 +89,33 @@ Processing medical imaging data: AMD instances can be used to process large amou
 Running electronic health records (EHR) systems: AMD instances can be used to run EHR systems, allowing healthcare providers to securely store and access patient records, test results, and treatment plans. This can improve care coordination and patient outcomes.
 Training machine learning models: AMD instances can be used to train machine learning models on large datasets of patient data, allowing healthcare providers to develop more accurate predictive models and personalized treatment plans.
 
+TECHNOLOGIES USED
+
+ 	* HTML
+	* CSS
+	* JAVA SCRIPT
+	
+BACKEND
+
+	*PHP
+	*GOOGLE CALANDER API
+	*GOOGLE MAPS API
+	
+CLOUD
+	*GOOGLE CLOUD
+	
+TOOLS
+	*FIGMA
+	*CANVA
+	*GITHUB
+	
+TEAM MEMBERS:
+	*B.HEMANTH SAI KUMAR
+	*ROHTITH VARDHAN
+	*B.ROHINI MEGHANA
+	*CH.NIKHIL ESWAR ANAND
+	
+
 GITHUB URL:
 https://github.com/Hemanthsaikumarbethapudi/HealthCure
 
