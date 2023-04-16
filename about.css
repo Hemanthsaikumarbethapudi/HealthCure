@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+.headde{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(79, 79, 203);
+    padding: 2rem 0;
+    padding-left: 2.5rem;
+}
+
+.headde a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.headde h3{
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+.home-bu{
+    margin-right: 30px;
+    font-size: 1.75rem;
+}
+
+
+.rapper{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: white;
+}
+
+.row{
+    width: 100%;
+    padding: 70px 80px;
+}
+
+.img-section{
+    width: 30%;
+    float: left;
+}
+
+.img-section img{
+    width: 100%;
+    height: auto;   
+}
+
+.containt{
+    width: 60%;
+    float: left;
+    margin-left: 50px;
+}
+
+.containt h1{
+    font-size: 90px;
+    letter-spacing: 3.5px;
+    margin-top: 25px;
+    color: #222;
+}
+
+.containt p{
+    font-size: 20px;
+    font-family: system-ui;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
