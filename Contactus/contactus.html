@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactus.css">
+    <title>ContactUs</title>
+</head>
+<body>
+    <div class="continer">
+        <div class="continerbox">
+            <div class="left"></div>
+            <form class="right" onsubmit="sendEmail(); reset(); return false;">
+                <h2>contact us</h2>
+                <input type="text" class="feild" placeholder="Your Name">
+                <input type="email" class="feild" placeholder="Your email">
+                <input type="text" class="feild" placeholder="Your phone number">
+                <textarea class="feild area" placeholder="Message"></textarea>
+                <button>send</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+            Host : "smtp.gmail.com",
+            Username : "mynameispilli90@gmail.com",
+            Password : "password",
+            To : 'them@website.com',
+            From : document.getElementById("email").value,
+            Subject : "New Contact Form",
+            Body : "Name: " + document.getElementById('name').value
+                    + "<br> Email: " + document.getElementById("email").value
+                    + "<br> Phone No: " + document.getElementById("phone no").value
+                    + "<br> Message: " + document.getElementById("message").value
+                     
+            }).then(
+            message => alert("Message Sent Succesfully")
+            );
+        }
+    </script>
+</body>
+</html>
