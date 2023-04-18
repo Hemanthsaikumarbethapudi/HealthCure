@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: system-ui;    
+}
+
+
+body{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* padding-bottom: 1000px;*/
+}
+
+p{
+    max-width: 60ch;
+}
+
+.body{
+    background-color: rgb(207, 163, 163);
+    background-image: url("images/pexels-gustavo-fring-4173251.jpg");
+    background-size: cover;    
+}
+    
+
+.logo{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-left: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    background-color: white;
+}
+
+.navigation{
+    display: flex;
+}
+
+.navigation li{
+    margin: 0 10px;
+    position: relative;
+}
+
+.navigation li::before{
+    content: "";
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+    height: 3px;
+    width: 0;
+    transition: 0.3s;
+}
+
+.navigation li:hover::before{
+    content: "";
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+    height: 3px;
+    width: 100%;
+}    
+
+
+.navigation li a{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem ;
+}
+
+.body{
+    padding: 20px 0;
+}
+
+
+.main-matter{
+    display: grid;
+    text-align: left;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 8rem 0;
+}
+
+.main-matter a{
+    font-weight: bold;
+    background-color: rgb(79, 79, 203);
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.main-matter h1{
+    padding: 2rem 0;
+}
+
+.main-matter p{
+    padding: 1.75rem 0;
+}
+
+.main-matter div{
+    margin: 20px 0;
+}
+
+.appoint-but:hover{
+    background-color: white;
+    color: black;
+}
+
+.content-continer{
+    display:grid;
+    background-color: rgb(79, 79, 203);
+    padding: 50px 0;
+    
+}
+
+.grid-continer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.grid-continer i{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.department-con{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: rgb(79, 79, 203);
+}
+
+.department-head{
+    display: flex;
+    justify-content: center;
+}
+
+.department-head h1{
+    color: white;
+    font-size: 2.2rem;
+}
+
+.department-head p{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.depart-con{
+    padding: 40px 120px;
+}
+
+.continer-dep{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 80px;
+    row-gap: 8rem;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 7rem 4rem;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+
+.continer-dep a{
+    display: grid;
+    justify-content: left;
+    font-size: 2.5rem;
+}
+
+.continer-dep h3{
+    padding: 10px 0;
+}
+
+.continer-dep .second-row{
+    padding-bottom: 70px;
+}
+
+.doctor-header{
+    padding: 20px 0;
+    padding-bottom: 0 ;
+    text-align: center;
+}
+
+.doctor-header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75rem;
+}
+
+
+
+.doctor-continer{
+    padding: 5rem 0;
+}
+
+
+
+.doctor-mem{
+    background-color: white;
+    padding: 0 20px;
+    padding-bottom: 10px;
+}
+
+.hooh{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: white;
+    line-height: 2rem;
+}
+
+.card{
+    padding: 10px 20px;
+}
+
+.hooh p{
+    color: black;
+    max-width: 60ch;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.hooh a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.hooh h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.div-img{
+    background-image: url("images/pexels-thirdman-5327585.jpg");
+    background-size: cover;
+}
+
+
+
+.footer-containt{
+    background-color: black;
+}
+
+.list-contain{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0 0;
+    margin: 0;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    color: white; 
+}
+
+.social-links a{
+    padding: 20px 0;
+    margin: 10px 20px;
+    color: white;
+}
+
+.social-links i{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+.contain-aboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.title-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.logo-name{
+    padding: 0 10px;
+}
+
+.aboutus{
+    padding: 5rem 0;
+}
+
+
+.aboutus p{
+    line-height: 1.75rem;
+    max-width: 50rem;
+}
+
+.aboutus div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 20px 0;
+    font-size: 1.25rem;
+}
+
+
+
+.style-li{
+    padding: 10px 30px;
+    margin: 30px 0;
+    border: white solid;
+    border-left: 2px;
+    border-top: 2px;
+    border-bottom: 2px;
+}
+
+.polocy{
+    padding: 10px 28px;
+    margin: 30px 0;
+    border: black solid;
+    border-right: 2px;
+}
+
+.rights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+}
+
+.rights i{
+    margin-right: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.copyright-con{
+
+    padding: 20px 0;
+    background-color: gray;
+}
+
+
+
+
